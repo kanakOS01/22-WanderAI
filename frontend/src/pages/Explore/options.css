@@ -1,0 +1,19 @@
+.option{
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    border-radius: 10px;
+    border: solid 2px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    flex-direction: column;
+    cursor: pointer;
+    user-select: none;
+}
+.selected,
+.option:hover{
+    background-color: rgb(223, 255, 223);
+    border: solid 2px rgb(223, 255, 223);
+}

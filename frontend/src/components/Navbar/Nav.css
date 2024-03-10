@@ -1,0 +1,557 @@
+.nav{
+  z-index: 5;
+}
+
+.nav-start {
+  margin: 0 auto;
+  display: block;
+  height: 19em;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  transition: 1s;
+}
+
+.nav-start .content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  bottom: 0;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-start .content .head {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.nav-start .content .sub-head {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.nav-start .content .already {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 0.2em;
+  text-decoration: underline;
+}
+
+.nav-start .content .already:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-start .content div .btn {
+  margin: 2em auto;
+  width: 15em;
+  height: 4em;
+  background-color: #fff;
+  color: #000;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.nav-start .content div .rightarr {
+  display: inline;
+}
+
+.nav-start .content div .rightarr img {
+  width: 1em;
+}
+
+.nav-start .content div .btn:hover {
+  background-color: #c5c5c5;
+}
+.nav-signup {
+  margin: 0 auto;
+  display: block;
+  /* height: 35em; */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  transition: 1s;
+}
+
+.nav-signup .content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  bottom: 0;
+  border-radius: 20px;
+  padding: 2.5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-signup .content .head {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.nav-signup .content .signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-signup .content form input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  height: 2em;
+  font-size: 1.2em;
+  margin: 5px 0;
+  box-shadow: 1px 1px 5px #ffffff44;
+}
+
+.nav-signup .content form input:focus,
+.nav-signup .content form input:active {
+  box-shadow: 1px 1px 10px #ffffffb7;
+}
+
+.nav-signup .content .or {
+  text-align: center;
+}
+
+.g-signup-btn {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  width: 80%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.2em;
+  user-select: none;
+  cursor: pointer;
+}
+
+.g-signup-btn .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  grid-column: 1/3;
+}
+
+.g-signup-btn .logo img {
+  width: 20px;
+}
+
+.g-signup-btn .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4285f4;
+  grid-column: 3/11;
+}
+
+.nav-signup .content .already {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 0.2em;
+  text-decoration: underline;
+}
+
+.nav-signup .content .already a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-signup .content .already:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-signup .content div .btn {
+  margin: 1em auto;
+  width: 15em;
+  height: 4em;
+  background-color: #fff;
+  color: #000;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.nav-signup .content div .rightarr {
+  display: inline;
+}
+
+.nav-signup .content div .rightarr img {
+  width: 1em;
+}
+
+.nav-signup .content div .btn:hover {
+  background-color: #c5c5c5;
+}
+
+.nav-signin {
+  margin: 0 auto;
+  display: block;
+  /* height: 35em; */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  transition: 1s;
+}
+
+.nav-signin .content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  bottom: 0;
+  border-radius: 20px;
+  padding: 2.5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-signin .content .head {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.nav-signin .content .signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-signin .content form input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  height: 2em;
+  font-size: 1.2em;
+  margin: 5px 0;
+  box-shadow: 1px 1px 5px #ffffff44;
+}
+
+.nav-signin .content form input:focus,
+.nav-signin .content form input:active {
+  box-shadow: 1px 1px 10px #ffffffb7;
+}
+
+.nav-signin .content .or {
+  text-align: center;
+}
+
+.g-signin-btn {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  width: 80%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.2em;
+  user-select: none;
+  cursor: pointer;
+}
+
+.g-signin-btn .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  grid-column: 1/3;
+}
+
+.g-signin-btn .logo img {
+  width: 20px;
+}
+
+.g-signin-btn .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4285f4;
+  grid-column: 3/11;
+}
+
+.nav-signin .content .already {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 0.2em;
+  text-decoration: underline;
+}
+
+.nav-signin .content .already a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-signin .content .already:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-signin .content div .btn {
+  margin: 1em auto;
+  width: 15em;
+  height: 4em;
+  background-color: #fff;
+  color: #000;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.nav-signin .content div .rightarr {
+  display: inline;
+}
+
+.nav-signin .content div .rightarr img {
+  width: 1em;
+}
+
+.nav-signin .content div .btn:hover {
+  background-color: #c5c5c5;
+}
+
+.nav-home {
+  user-select: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0%;
+  height: 20em !important;
+  @media (max-width: 768px) {
+    width: 100vw;
+  }
+  @media (min-width: 768px) {
+    width: 40em;
+    right: 50%;
+    transform: translateX(50%) !important;
+  }
+  transition: .2s;
+}
+
+.expanded {
+  transform: translateY(10%);
+  transition: .2s;
+  .icons {
+    p{
+      opacity: .7;
+      color: #fff;
+    }
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
+.expanded-not {
+  transform: translateY(45%);
+  transition: .2s;
+  .icons p{
+    opacity: 0;
+  }
+}
+
+.top{
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .slider{
+    border-radius: 10px;
+    width: 50%;
+    height: .3em;
+    background-color: #fff;
+  }
+}
+
+.expanded-not {
+  height: 10em !important;
+  transition: .2s;
+}
+
+.nav-home .content {
+  padding-top:3em;
+  margin: auto;
+  height: 20em !important;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  bottom: 0;
+  border-radius: 40px 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-home .content .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.nav-home .content .search .left {
+  height: 100%;
+  background: rgb(226 226 226);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  padding: 1em 3em;
+  width: 88%;
+  border: 0;
+  user-select: none;
+  color: #fff;
+  outline: none;
+}
+
+.nav-home .content .search .right {
+  height: 100%;
+  width: 12%;
+  background: rgb(185, 185, 185);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-home .content .search .right span:hover {
+  opacity: 1;
+}
+
+.nav-home .content .icons {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  place-items: center;
+  align-items: center;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  margin-top:1em;
+}
+.nav-home .content .icons span {
+  transform: scale(1.2);
+  opacity: 0.7;
+  color: #fff;
+}
+.nav-home .content .icons a:hover {
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.nav-explore {
+  margin: 0 auto;
+  display: block;
+  height: 7em;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  transition: 1s;
+}
+
+.nav-explore .content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(20, 3, 3);
+  color: #fff;
+  bottom: 0;
+  border-radius: 30px 30px 0 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-explore .content .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-explore .content .search .left {
+  background: rgb(94, 94, 94);
+  height: 3em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+}
+
+.nav-explore .content .search .left input {
+  background: transparent;
+  border: 0;
+  user-select: none;
+  color: #fff;
+  outline: none;
+}
+
+.nav-explore .content .search .right {
+  background: rgb(94, 94, 94);
+  height: 3em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+}
+
+.nav-explore .content .search .right span {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.nav-explore .content .search .right span:hover {
+  opacity: 1;
+}

@@ -1,0 +1,58 @@
+.ham{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 200;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    span{
+        transform: scale(1.8);
+    }
+}
+.ham .btn{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+.offcanvas{
+    z-index: 100;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+}
+
+.close-button{
+    color: #fff;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.ham .offcanvas .offcanvas-body {
+    transition: 2s;
+}
+.ham .offcanvas .offcanvas-body ul{
+    list-style: none;
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ham .offcanvas .offcanvas-body ul li a{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.ham .offcanvas .offcanvas-body ul li a{
+    color: rgba(255, 255, 255, .9)
+}
